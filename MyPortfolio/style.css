@@ -389,6 +389,11 @@ article .icon {
   height: 70vh;
 }
 
+#contact{
+  margin-top: 720px;
+}
+
+
 .contact-info-upper-container {
   display: flex;
   justify-content: center;

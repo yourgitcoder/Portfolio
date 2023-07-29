@@ -1,3 +1,14 @@
+
+
+
+
+
+
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -38,7 +49,9 @@
     </nav>
     <section id="profile">
       <div class="section__pic-container">
-        <img src="./assets/profile-pic.png" alt="John Doe profile picture" />
+        <img
+          src="./assets/dp.jpg" style="border-radius: 50%;"
+          alt="profile picture" />
       </div>
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
@@ -51,36 +64,45 @@
           >
             Download CV
           </button>
+
+          
           <button class="btn btn-color-1" onclick="location.href='./#contact'">
             Contact Info
           </button>
         </div>
         <div id="socials-container">
+
+          <a href="https://www.linkedin.com/in/riturajgautam/" target="_blank">
           <img
             src="./assets/linkedin.png"
             alt="My LinkedIn profile"
             class="icon"
-            onclick="location.href='https://www.linkedin.com/in/riturajgautam/'"
           />
+          </a>
+
+          <a href="https://github.com/yourgitcoder" target="_blank">
           <img
             src="./assets/github.png"
             alt="My Github profile"
             class="icon"
-            onclick="location.href='https://github.com/yourgitcoder'"
           />
+          </a>
+          
+
+
         </div>
       </div>
     </section>
     <section id="about">
       <p class="section__text__p1">Get To Know More</p>
       <h1 class="title">About Me</h1>
-      <div class="section-container">
-        <div class="section__pic-container">
+      <!-- <div class="section-container"> -->
+        <!-- <div class="section__pic-container">
           <img
             src="./assets/about-pic.png"
             alt="Profile picture"
             class="about-pic"
-          />
+          /> -->
         </div>
         <div class="about-details-container">
           <div class="about-containers">
@@ -112,7 +134,7 @@
             </p>
           </div>
         </div>
-      </div>
+      <!-- </div> -->
       <img
         src="./assets/arrow.png"
         alt="Arrow icon"
@@ -198,7 +220,7 @@
             </div>
           </div>
           <div class="details-container">
-            <h2 class="experience-sub-title">Other Skills</h2>
+            <h2 class="experience-sub-title">Other Tools</h2>
             <div class="article-container">
               <article>
                 <img
@@ -260,7 +282,7 @@
       <p class="section__text__p1">Browse My Recent</p>
       <h1 class="title">Projects</h1>
       <div class="experience-details-container">
-        <div class="about-containers">
+        <div class="about-containers" style="flex-wrap: wrap; justify-content: center;">
           <div class="details-container color-container">
             <div class="article-container">
               <img
@@ -272,18 +294,26 @@
             </div>
             <h2 class="experience-sub-title project-title">Portfolio Website</h2>
             <div class="btn-container">
+
+              <a href="https://github.com/yourgitcoder/Portfolio" target="_blank">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                
               >
                 Github
               </button>
+            </a>
+
+            <a href="https://github.com/yourgitcoder/spacex" target="_blank">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                
               >
                 Live Demo
               </button>
+              </a>
+
+
             </div>
           </div>
 
@@ -301,18 +331,27 @@
             </div>
             <h2 class="experience-sub-title project-title">Spacex Clone</h2>
             <div class="btn-container">
+
+              <a href="https://github.com/yourgitcoder/spacex" target="_blank">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+              
               >
                 Github
               </button>
+            </a>
+
+              <a href="https://app.netlify.com/sites/webspacex/" target="_blank">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                
+                
+                
+                
               >
                 Live Demo
               </button>
+            </a>
             </div>
           </div>
 
@@ -329,30 +368,156 @@
             </div>
             <h2 class="experience-sub-title project-title">News Website</h2>
             <div class="btn-container">
+
+
+              <a href="https://github.com/yourgitcoder/news" target="_blank">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
               >
                 Github
               </button>
+              </a>
+
+              <a href="https://github.com/" target="_blank">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                
               >
                 Live Demo
               </button>
+              </a>
+
+
             </div>
           </div>
+
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/tictactoehome.png"
+                alt="Project 3"
+                class="project-img"
+                style="height: 299px; width: 299px;"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">TicTacToe</h2>
+            <div class="btn-container">
+
+
+              <a href="https://github.com/yourgitcoder/tictactoe" target="_blank">
+              <button
+                class="btn btn-color-2 project-btn"
+                
+              >
+                Github
+              </button>
+              </a>
+
+              <a href="https://app.netlify.com/sites/tictactoerg/" target="_blank">
+              <button
+                class="btn btn-color-2 project-btn"
+                
+              >
+                Live Demo
+              </button>
+              </a>
+
+
+            </div>
+          </div>
+
+          <div class="details-container color-container"">
+            <div class="article-container">
+              <img
+                src="./assets/clockhome.png"
+                alt="Project 3"
+                class="project-img"
+                style="height: 299px; width: 299px;"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Digital Clock</h2>
+            <div class="btn-container">
+
+              <a href="https://github.com/yourgitcoder/clock" target="_blank">
+              <button
+                class="btn btn-color-2 project-btn"
+                
+              >
+                Github
+              </button>
+              </a>
+
+              <a href="https://app.netlify.com/sites/my-project-clock/" target="_blank">
+              <button
+                class="btn btn-color-2 project-btn"
+                
+              > 
+                Live Demo
+              </button>
+              </a>
+
+
+
+            </div>
+          </div>
+
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/tempthome.png"
+                alt="Project 3"
+                class="project-img"
+                style="height: 299px; width: 299px;"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title" style="font-size: 1.6rem;">Temperature Coverter</h2>
+            <div class="btn-container">
+
+              <a href="https://github.com/yourgitcoder/tempt-conv" target="_blank">
+              <button
+                class="btn btn-color-2 project-btn"
+                
+              >
+                Github
+              </button>
+              </a>
+
+              <a href="https://app.netlify.com/sites/temptconv/" target="_blank">
+              <button
+                class="btn btn-color-2 project-btn"
+                
+              >
+                Live Demo
+              </button>
+              </a>
+
+
+            </div>
+          </div>
+         
+
+
+
+
+
+
+
         </div>
       </div>
       <img
         src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
-        onclick="location.href='./#projects'"
+        onclick="location.href='./#contact'"
+        style="bottom: -35rem;"
       />
     </section>
-    <section id="contact">
+
+
+
+    <section id="contact" >
       <p class="section__text__p1">Get in Touch</p>
       <h1 class="title">Contact Me</h1>
       <div class="contact-info-upper-container">
@@ -362,7 +527,7 @@
             alt="Email icon"
             class="icon contact-icon email-icon"
           />
-          <p><a href="mailto:rituraj21_ug@ece.nits.ac.in">rituraj21_ug@ece.nits.ac.in</a></p>
+          <p><a href="mailto:rituraj21_ug@ece.nits.ac.in" target="_blank">rituraj21_ug@ece.nits.ac.in</a></p>
         </div>
         <div class="contact-info-container">
           <img
@@ -370,7 +535,7 @@
             alt="LinkedIn icon"
             class="icon contact-icon"
           />
-          <p><a href="https://www.linkedin.com/in/riturajgautam/">LinkedIn</a></p>
+          <p><a href="https://www.linkedin.com/in/riturajgautam/" target="_blank">LinkedIn</a></p>
         </div>
       </div>
     </section>
