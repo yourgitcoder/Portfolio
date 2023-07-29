@@ -267,6 +267,11 @@ section {
   position: relative;
 }
 
+.text-container p{
+    text-align: center;
+}
+
+
 .about-containers {
   gap: 2rem;
   margin-bottom: 2rem;
@@ -380,6 +385,9 @@ article .icon {
   border-color: rgb(163, 163, 163);
 }
 
+#disabled-btn:hover{
+  color: darkgray !important;
+}
 /* CONTACT */
 
 #contact {
