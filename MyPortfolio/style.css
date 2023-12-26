@@ -267,6 +267,11 @@ section {
   position: relative;
 }
 
+.text-container p{
+    text-align: center;
+}
+
+
 .about-containers {
   gap: 2rem;
   margin-bottom: 2rem;
@@ -290,7 +295,7 @@ section {
 .arrow {
   position: absolute;
   right: -5rem;
-  bottom: 2.5rem;
+  bottom: 13.5rem;
 }
 
 .details-container {
@@ -318,6 +323,7 @@ section {
 
 #experience {
   position: relative;
+  margin-top: -107px;
 }
 
 .experience-sub-title {
@@ -380,6 +386,9 @@ article .icon {
   border-color: rgb(163, 163, 163);
 }
 
+#disabled-btn:hover{
+  color: darkgray !important;
+}
 /* CONTACT */
 
 #contact {
@@ -388,6 +397,11 @@ article .icon {
   flex-direction: column;
   height: 70vh;
 }
+
+#contact{
+  margin-top: 720px;
+}
+
 
 .contact-info-upper-container {
   display: flex;
